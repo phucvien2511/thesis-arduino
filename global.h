@@ -37,11 +37,8 @@ extern char subscribeMessage[256];
 #endif
 
 // Define WiFi parameters 
-#define WIFI_SSID               "Thinh Phat"
-#define WIFI_PASSWORD           "0913603911"
-
-//#define WIFI_SSID                 "The ST Coffee L1"
-//#define WIFI_PASSWORD             "xincamon"
+#define WIFI_SSID               "YOUR_WIFI_NAME"
+#define WIFI_PASSWORD           "YOUR_WIFI_PASSWORD"
 
 #define LAB_WIFI_SSID           "ACLAB"
 #define LAB_WIFI_PASSWORD       "ACLAB2023"
