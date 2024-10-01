@@ -1,16 +1,11 @@
 #include "global.h"
 
-// String MQTT_SERVER = "io.adafruit.com";
-// String MQTT_USERNAME = "vienminhphuc";
-// String MQTT_PASSWORD = "aio_SXbj67lOqttFFJ1BaBT9BsHhqZTs";
-// String PUBLISH_TOPIC = "vienminhphuc/feeds/room-access";
-// String SUBSCRIBE_TOPIC = "vienminhphuc/feeds/room-access";
-String M5_MAC_ADDR = "64b70882fdc8";
-String MQTT_SERVER = "mqttserver.tk";
-String MQTT_USERNAME = "bksmarthotel";
-String MQTT_PASSWORD = "BKSmartHotel_jen4BBXaJp";
-String PUBLISH_TOPIC = "/bk/smarthotel/devicemonitoring/" + M5_MAC_ADDR + "/test";
-String SUBSCRIBE_TOPIC = "/bk/smarthotel/devicemonitoring/" + M5_MAC_ADDR + "/+";
+String M5_MAC_ADDR = "YOUR_MAC_ADDR_HERE";
+String MQTT_SERVER = "mqtt_server_url";
+String MQTT_USERNAME = "mqtt_username";
+String MQTT_PASSWORD = "mqtt_password";
+String PUBLISH_TOPIC = "pub_topic";
+String SUBSCRIBE_TOPIC = "sub_topic";
 
 MQTTHelper myMQTT(MQTT_SERVER, MQTT_USERNAME, MQTT_PASSWORD);
 
