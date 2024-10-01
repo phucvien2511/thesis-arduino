@@ -58,7 +58,7 @@ void MQTTHelper::reconnect() {
         Serial.print("Attempting MQTT connection...");
         if (client.connect("client", username.c_str(), password.c_str())) {
             Serial.println("Connected!");
-            MQTTHelper::subscribe("/bk/smarthotel/devicemonitoring/64b70882fdc8/+");
+            MQTTHelper::subscribe("sub_topic");
         } else {
             Serial.print("Failed, rc=");
             Serial.print(client.state());
